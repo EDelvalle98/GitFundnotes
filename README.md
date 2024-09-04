@@ -1,5 +1,5 @@
 Git is a powerful version control system that tracks changes in files over time.
-Basic Concepts
+
 Repository: A directory that stores all the files and their history.
 Commit: A snapshot of the repository's state at a particular point in time.
 Branch: A parallel version of the repository, allowing you to work on different features independently.
@@ -18,7 +18,7 @@ git add <file>/ -A: Adds a file to the staging area. -A adds everything
 git commit -m "<message>": Commits the staged changes with a message.
 git push <remote> <branch>: Pushes commits to a remote repository.
 git pull <remote> <branch>: Pulls changes from a remote repository.
-Troubleshooting
+Troubleshooting Commands
 git status: Shows the current state of your working directory.
 git log: Displays a list of commits.
 git reset --hard <commit>: Reverts to a specific commit.
